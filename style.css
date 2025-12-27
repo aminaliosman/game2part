@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0171f8;
+}
+
+.navbar {
+  background-image: url("banner-bg.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 225px 0px;
+  border-radius: 0 0 150px 150px;
+  overflow: hidden;
+  background-color: #0171f8;
+}
+
+.header,
+.container {
+  background-color: #0171f8;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.itemul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+}
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+
+.sign {
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  background-color: #ee626b;
+}
+
+li:first-child:hover,
+li:nth-child(2):hover,
+li:nth-child(3):hover,
+li:nth-child(4):hover {
+  overflow: hidden;
+  background-color: grey;
+  transition: 1s ease-in;
+  border-radius: 20px;
+}
+
+h6 {
+  margin-top: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+}
+
+h2 {
+  margin-top: 20px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+h2::after {
+  background-image: url("https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/caption-dec.png");
+  width: 202px;
+  height: 12px;
+  left: 125px;
+  bottom: 0;
+}
+
+p {
+  margin-top: 40px;
+  width: 800px;
+  color: #fff;
+}
+
+.search {
+  margin-top: 70px;
+}
+
+.type {
+  border-radius: 100px;
+  padding: 20px 20px 20px 20px;
+  width: 300px;
+}
+
+button {
+  padding: 20px 20px 20px 20px;
+  height: 60px;
+  font-size: 15px;
+  border-radius: 100px;
+  background-color: #ee626b;
+  color: white;
+}
+
+button:hover {
+  background-color: #0171f8;
+  transition: all 0.3s;
+}
+
+.game {
+  display: flex;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+.img {
+  position: relative;
+  margin-left: 50px;
+}
+
+.price {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  background-color: #0171f8;
+  color: #fff;
+  font-size: large;
+  font-weight: 800;
+  padding: 8px;
+  border-radius: 100px;
+}
+
+.discount {
+  position: absolute;
+  bottom: -10px;
+  background-color: #ee626b;
+  font-size: large;
+  color: #fff;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+
+.logo{
+  margin-left: 60px;
+}
+
+.cards{
+  margin-top: 100px;
+}
+
+
+
+.img .game {
+  border-radius: 25px;
+}
+
+.mini-cards {
+  position: relative;
+  margin-top: -120px;
+  padding: 0 60px;
+}
+
+.mini-cards .row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.mini-cards .card {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  transition: 0.3s ease;
+}
+
+.mini-cards .card:hover {
+  transform: translateY(-10px);
+}
+
+.mini-img {
+  width: 90px;
+  height: 90px;
+  background: #0071f8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.mini-img img {
+  width: 45px;
+  height: 45px;
+}
+
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.row{
+  margin-bottom: 170px;
+}
+
+.mini-img:hover{
+  background-color: #ee626b;
+  transition: 0.9s ease-in-out;
+}
+
+.trending {
+  padding: 80px 60px;
+  background: #fff;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  color: #ee626b;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.trending-header h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.view-all {
+  background: #ee626b;
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.trending h2{
+  color: #1e1e1e;
+}
+
+.game-card {
+  background: #f7f7f7;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.game-img {
+  position: relative;
+}
+
+.game-img img {
+  width: 100%;
+  display: block;
+  border-radius: 25px 25px 0 0;
+}
+
+.price {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #0071f8;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.price del {
+  display: block;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.game-info {
+  padding: 20px;
+  position: relative;
+}
+
+.category {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.game-info h4 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.cart {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  background: #ee626b;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.category-name{
+  color: #0071f8;
+}
+
+.cart:hover{
+  background-color: #0171f8;
+  transition: 0.9s ease-in-out;
+}
+
+.view-all:hover{
+  background-color: #0171f8;
+  transition: 0.9s ease-in-out;
+}
