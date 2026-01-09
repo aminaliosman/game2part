@@ -154,16 +154,13 @@ button:hover {
   border-radius: 100px;
 }
 
-
-.logo{
+.logo {
   margin-left: 60px;
 }
 
-.cards{
+.cards {
   margin-top: 100px;
 }
-
-
 
 .img .game {
   border-radius: 25px;
@@ -195,6 +192,15 @@ button:hover {
   transform: translateY(-10px);
 }
 
+.mini-cards {
+  background-color: #0171f8;
+  padding: 100px 60px;
+}
+
+.mini-cards .card {
+  background: #fff;
+}
+
 .mini-img {
   width: 90px;
   height: 90px;
@@ -211,20 +217,19 @@ button:hover {
   height: 45px;
 }
 
-
 .title {
   font-size: 16px;
   font-weight: 700;
   color: #1e1e1e;
 }
 
-.row{
+.row {
   margin-bottom: 170px;
 }
 
-.mini-img:hover{
+.mini-img:hover {
   background-color: #ee626b;
-  transition: 0.9s ease-in-out;
+  transition: 0.9s ease;
 }
 
 .trending {
@@ -260,14 +265,13 @@ button:hover {
   font-weight: 600;
 }
 
-
 .trending-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
-.trending h2{
+.trending h2 {
   color: #1e1e1e;
 }
 
@@ -335,17 +339,91 @@ button:hover {
   cursor: pointer;
 }
 
-
-.category-name{
+.category-name {
   color: #0071f8;
 }
 
-.cart:hover{
+.cart:hover {
   background-color: #0171f8;
   transition: 0.9s ease-in-out;
 }
 
-.view-all:hover{
+.view-all:hover {
   background-color: #0171f8;
   transition: 0.9s ease-in-out;
+}
+
+.games {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.games-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.label {
+  color: #ff5b61;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 8px 0 0;
+  font-size: 40px;
+}
+
+.btn-outline {
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  background: #ff5b61;
+  color: #fff;
+  cursor: pointer;
+}
+
+.games-grid {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 10px;
+}
+
+.card {
+  flex: 0 0 220px;
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 24px;
+  padding: 16px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.category {
+  font-size: 14px;
+  color: #777;
+}
+
+.card h3 {
+  margin: 8px 0 16px;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 10px 24px;
+  background: #ff5b61;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
 }
