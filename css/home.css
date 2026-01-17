@@ -12,16 +12,6 @@ body {
 }
 
 
-.navbar {
-  background-image: url("banner-bg.jpg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 225px 0px;
-  border-radius: 0 0 150px 150px;
-  overflow: hidden;
-  background-color: #0171f8;
-}
 
 .header,
 .container {
@@ -43,7 +33,6 @@ body {
 a {
   text-decoration: none;
   color: white;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
 }
 .container {
@@ -62,9 +51,8 @@ li:first-child:hover,
 li:nth-child(2):hover,
 li:nth-child(3):hover,
 li:nth-child(4):hover {
-  overflow: hidden;
   background-color: grey;
-  transition: 1s ease-in;
+  transition: 1s ease;
   border-radius: 20px;
 }
 
@@ -390,7 +378,7 @@ h2 {
 .games-grid {
   display: flex;
   gap: 24px;
-  padding-bottom: 10px;
+
 }
 
 .card {
@@ -460,10 +448,11 @@ h2 {
 }
 
 .card-header {
-  background: #0d6efd;
+  background: #fff;
   color: #fff;
   border-radius: 15px;
   padding: 18px 0;
+  color: #0066ff;
   font-size: 20px;
   font-weight: 600;
 }
@@ -580,6 +569,7 @@ h2 {
   height: 420px;
   border-radius: 20px;
   object-fit: cover;
+  top: 1px;
 }
 
 .newsletter {
@@ -595,3 +585,16 @@ h2 {
   border: 1px solid #ddd;
 }
 
+footer p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  border-radius: 20px;
+}

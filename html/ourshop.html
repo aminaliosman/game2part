@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>589 lugx gaming</title>
     <link rel="stylesheet" href="/css/ourshop.css" />
+    <script>
+  const menu = document.querySelector('.main ul');
+  const items = menu.querySelectorAll('li');
+
+  items.forEach(item => {
+    item.addEventListener('click', () => {
+      // убираем активный класс у всех
+      items.forEach(el => el.classList.remove('active'));
+
+      // добавляем активный класс текущему
+      item.classList.add('active');
+
+      // перемещаем элемент в начало списка
+      menu.prepend(item);
+    });
+  });
+</script>
+
   </head>
   <body>
     <header>
@@ -18,16 +36,16 @@
               <li class="li">
                 <a href="/html/home.html">Home</a>
               </li>
-              <li>
+              <li class="li">
                 <a href="/html/ourshop.html">Our Shop</a>
               </li>
-              <li>
+              <li class="li">
                 <a href="#">Product Details</a>
               </li>
-              <li>
+              <li class="li">
                 <a href="#">Contact Us</a>
               </li>
-              <li>
+              <li class="lisign">
                 <a class="sign" href="/html/sign.html">SIGN IN</a>
               </li>
             </ul>

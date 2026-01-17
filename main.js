@@ -1,4 +1,4 @@
-      const headerSticky = document.querySelector(".header-sticky");
+    const headerSticky = document.querySelector(".header-sticky");
 
       window.addEventListener("scroll", () => {
         if (window.scrollY > 300) {
